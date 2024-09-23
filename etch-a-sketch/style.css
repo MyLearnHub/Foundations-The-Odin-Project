@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 40px;
+  width: 960px;
+  height: auto;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerDiv {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.childDiv {
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  margin: 1px;
+  box-sizing: border-box;
+}
+
+.btndiv,
+.choose-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+button {
+  font-size: large;
+  font-weight: bold;
+  background: black;
+  color: white;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
